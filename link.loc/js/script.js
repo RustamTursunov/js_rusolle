@@ -31,7 +31,7 @@
     });
 
 $(document).on('click', '.result_link', function(event){
-    event.preventDefault();
+    //event.preventDefault();
     var link = $(this)[0].outerHTML;
     
     
